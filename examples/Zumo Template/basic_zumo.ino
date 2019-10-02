@@ -17,7 +17,6 @@ Pushbutton start_button(ZUMO_BUTTON);                               // knappen p
 ZumoReflectanceSensorArray reflectanceSensors(QTR_NO_EMITTER_PIN);  // Zumo sensorer på baksiden av metallplaten
 
 int sensor_values[NUM_SENSORS];                                     // en plassholder for alle 6 sensor verdiene
-int c[NUM_SENSORS];    
 
 // Funksjoen kjører på starten og bare èn gang
 void setup() {
